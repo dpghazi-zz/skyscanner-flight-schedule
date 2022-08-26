@@ -1,7 +1,9 @@
+// Combine Calendar code into App.js
 import React, { Component } from 'react';
 import { BpkCode } from 'bpk-component-code';
 import BpkButton from 'bpk-component-button';
 import BpkText from 'bpk-component-text';
+// Import CALENDAR_SELECTION_TYPE:
 import BpkCalendar, { CALENDAR_SELECTION_TYPE } from 'bpk-component-calendar';
 import format from 'date-fns/format';
 import STYLES from './App.scss';
@@ -10,6 +12,7 @@ import STYLES from './App.scss';
 const c = className => STYLES[className] || 'UNKNOWN';
 const formatDateFull = date => format(date, 'EEEE, do MMMM yyyy');
 const formatMonth = date => format(date, 'MMMM yyyy');
+// Add the rest of the days:
 const daysOfWeek = [
     {
         name: 'Sunday',
@@ -55,7 +58,7 @@ const daysOfWeek = [
     },
 ];
 
-
+// Convert functional to class component:
 export default class App extends Component {
     constructor () {
         super();
@@ -86,6 +89,7 @@ export default class App extends Component {
                     </div>
                 </header>
                 <main className={c('App__main')}>
+                    {/* Remove <BpkInput /> because we just want to select date from calendar*/}
                     <div>
                         <BpkCalendar
                             id='calendar'
