@@ -15,9 +15,10 @@ const App = () => (
       </div>
     </header>
     <main className={c('App__main')}>
-      <BpkText tagName="p" className={c('App__text')}>
-        To get started, edit <BpkCode>src/App.jsx</BpkCode> and save to reload.
-      </BpkText>
+        <div>
+            <FlightCalendar/>
+        </div>
+        <BpkButton className={c('App__continue')} onClick={() => alert('It works!')}>Continue</BpkButton>
       <BpkButton onClick={() => alert('Continue')}>Click me</BpkButton>
     </main>
   </div>
