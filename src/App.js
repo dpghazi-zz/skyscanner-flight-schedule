@@ -11,14 +11,14 @@ const App = () => (
   <div className={c('App')}>
     <header className={c('App__header')}>
       <div className={c('App__header-inner')}>
-        <BpkText tagName="h1" textStyle="xxl" className={c('App__heading')}>Welcome to React + Backpack</BpkText>
+        <BpkText tagName="h1" textStyle="xxl" className={c('App__heading')}>Skyscanner Flight Schedule</BpkText>
       </div>
     </header>
     <main className={c('App__main')}>
       <BpkText tagName="p" className={c('App__text')}>
         To get started, edit <BpkCode>src/App.jsx</BpkCode> and save to reload.
       </BpkText>
-      <BpkButton onClick={() => alert('It works!')}>Click me</BpkButton>
+      <BpkButton onClick={() => alert('Continue')}>Click me</BpkButton>
     </main>
   </div>
 );
