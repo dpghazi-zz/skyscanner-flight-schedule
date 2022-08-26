@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@skyscanner/backpack-react-scripts": "10.0.4",
+    "bpk-component-input": "^6.1.16"
 
   },
   "scripts": {
