@@ -17,7 +17,7 @@
 
 ### Language **& Tools**
 
-- JavaScript (React.js)
+- JavaScript (React)
 - Skyscanner Backpack
 - Backpack Calendar Component
 
