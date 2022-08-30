@@ -17,9 +17,8 @@
 
 ### Language **& Tools**
 
-- JavaScript
-- React 
-- Backpack
+- JavaScript (React)
+- Skyscanner Backpack Library
 
 ## npm script commands
 
