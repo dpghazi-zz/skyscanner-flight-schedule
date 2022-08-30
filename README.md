@@ -5,7 +5,7 @@
 > so please refer to [it's documentation](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md)
 > for more usage information.
 
-# Skyscanner Flight Schedule App
+# Skyscanner Flight Schedule
 
 ## **Project Description**
 - Skyscanner is a search engine and travel agency that allows people to research and book travel options like flights, hotels, and car rentals. The company also created <a href="https://github.com/Skyscanner/backpack" target="_blank">Backpack</a>, an open-source collection of design resources and reusable guidelines, for use in all of their projects. 
