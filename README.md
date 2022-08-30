@@ -9,7 +9,7 @@
 
 ## **Project Description**
 - Skyscanner is a search engine and travel agency that allows people to research and book travel options like flights, hotels, and car rentals. The company also created <a href="https://github.com/Skyscanner/backpack" target="_blank">Backpack</a>, an open-source collection of design resources and reusable guidelines, for use in all of their projects. 
-- This simple web app utilizes the Skyscanner Backpack library to add a <a href="https://backpack.github.io/components/calendar/?platform=web" target="_blank">calendar feature</a> for selecting flight date and automated testing with <a href="https://github.com/facebook/create-react-app" target="_blank">React</a>.
+- This web app utilizes the Skyscanner Backpack library to add a <a href="https://backpack.github.io/components/calendar/?platform=web" target="_blank">calendar feature</a> for selecting flight date and automated testing with <a href="https://github.com/facebook/create-react-app" target="_blank">React</a>.
 
 ## Result
 ![Kapture 2022-08-26 at 02 02 44](https://user-images.githubusercontent.com/94224903/186869523-45bf9191-57c4-4be4-9ddf-42ab221ebc8f.gif)
